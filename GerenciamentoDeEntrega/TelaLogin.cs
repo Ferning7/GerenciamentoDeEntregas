@@ -10,6 +10,8 @@ namespace GerenciamentoDeEntrega
         public telaLogin()
         {
             InitializeComponent();
+            txtSenhaLogin.UseSystemPasswordChar = true;
+            SenhaMostrando.Visible = false;
         }
 
         private void adicionarUserControl(UserControl userControl)
@@ -72,11 +74,15 @@ namespace GerenciamentoDeEntrega
 
         private void MostrarSenha_Click(object sender, EventArgs e)
         {
+            txtSenhaLogin.UseSystemPasswordChar = false;
+            MostrarSenha.Visible = false;
             SenhaMostrando.Visible = true;
         }
 
         private void SenhaMostrando_Click(object sender, EventArgs e)
         {
+            txtSenhaLogin.UseSystemPasswordChar = true;
+            MostrarSenha.Visible = true;
             SenhaMostrando.Visible = false;
         }
     }

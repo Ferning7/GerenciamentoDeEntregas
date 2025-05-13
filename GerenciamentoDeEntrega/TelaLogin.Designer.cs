@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaLogin));
             btnLogin = new Button();
             linkCadastrar = new LinkLabel();
             label1 = new Label();
@@ -41,14 +40,16 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             PanelLogin = new Panel();
-            MostrarSenha = new PictureBox();
+            pictureBox3 = new PictureBox();
             SenhaMostrando = new PictureBox();
+            MostrarSenha = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             PanelLogin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)MostrarSenha).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SenhaMostrando).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)MostrarSenha).BeginInit();
             SuspendLayout();
             // 
             // btnLogin
@@ -57,9 +58,9 @@
             btnLogin.Cursor = Cursors.Hand;
             btnLogin.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(219, 453);
+            btnLogin.Location = new Point(117, 468);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(143, 46);
+            btnLogin.Size = new Size(148, 56);
             btnLogin.TabIndex = 0;
             btnLogin.Text = "Entrar";
             btnLogin.UseVisualStyleBackColor = false;
@@ -70,7 +71,7 @@
             linkCadastrar.AutoSize = true;
             linkCadastrar.Cursor = Cursors.Hand;
             linkCadastrar.LinkColor = Color.DarkRed;
-            linkCadastrar.Location = new Point(240, 496);
+            linkCadastrar.Location = new Point(143, 527);
             linkCadastrar.Name = "linkCadastrar";
             linkCadastrar.Size = new Size(100, 29);
             linkCadastrar.TabIndex = 1;
@@ -82,7 +83,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(157, 198);
+            label1.Location = new Point(44, 192);
             label1.Name = "label1";
             label1.Size = new Size(143, 29);
             label1.TabIndex = 2;
@@ -92,7 +93,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(157, 295);
+            label2.Location = new Point(44, 289);
             label2.Name = "label2";
             label2.Size = new Size(72, 29);
             label2.TabIndex = 3;
@@ -100,7 +101,7 @@
             // 
             // txtCredencialLogin
             // 
-            txtCredencialLogin.Location = new Point(157, 230);
+            txtCredencialLogin.Location = new Point(44, 224);
             txtCredencialLogin.Name = "txtCredencialLogin";
             txtCredencialLogin.Size = new Size(272, 35);
             txtCredencialLogin.TabIndex = 4;
@@ -108,9 +109,8 @@
             // 
             // txtSenhaLogin
             // 
-            txtSenhaLogin.Location = new Point(157, 327);
+            txtSenhaLogin.Location = new Point(44, 321);
             txtSenhaLogin.Name = "txtSenhaLogin";
-            txtSenhaLogin.PasswordChar = '•';
             txtSenhaLogin.Size = new Size(272, 35);
             txtSenhaLogin.TabIndex = 5;
             // 
@@ -118,7 +118,7 @@
             // 
             lblLogin.AutoSize = true;
             lblLogin.Font = new Font("Arial", 19F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblLogin.Location = new Point(232, 104);
+            lblLogin.Location = new Point(120, 84);
             lblLogin.Name = "lblLogin";
             lblLogin.Size = new Size(123, 45);
             lblLogin.TabIndex = 6;
@@ -130,7 +130,7 @@
             linkLabel2.Cursor = Cursors.Hand;
             linkLabel2.Font = new Font("Arial Narrow", 10F);
             linkLabel2.LinkColor = Color.DarkRed;
-            linkLabel2.Location = new Point(157, 365);
+            linkLabel2.Location = new Point(44, 359);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(130, 24);
             linkLabel2.TabIndex = 7;
@@ -142,11 +142,10 @@
             panel1.BackColor = Color.DarkRed;
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pictureBox1);
-            panel1.Cursor = Cursors.Hand;
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(600, 50);
+            panel1.Size = new Size(876, 50);
             panel1.TabIndex = 8;
             panel1.MouseDown += panel1_MouseDown;
             panel1.MouseMove += panel1_MouseMove;
@@ -154,8 +153,9 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(487, 2);
+            pictureBox2.Cursor = Cursors.Hand;
+            pictureBox2.Image = Properties.Resources.icons8_linha_horizontal_50__1_;
+            pictureBox2.Location = new Point(765, 1);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(51, 47);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -165,8 +165,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(546, 4);
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.Image = Properties.Resources.icons8_excluir_50__1_;
+            pictureBox1.Location = new Point(824, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(47, 44);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -176,11 +177,12 @@
             // 
             // PanelLogin
             // 
+            PanelLogin.Controls.Add(pictureBox3);
             PanelLogin.Controls.Add(SenhaMostrando);
             PanelLogin.Controls.Add(MostrarSenha);
+            PanelLogin.Controls.Add(lblLogin);
             PanelLogin.Controls.Add(linkLabel2);
             PanelLogin.Controls.Add(linkCadastrar);
-            PanelLogin.Controls.Add(lblLogin);
             PanelLogin.Controls.Add(btnLogin);
             PanelLogin.Controls.Add(label1);
             PanelLogin.Controls.Add(txtCredencialLogin);
@@ -189,13 +191,36 @@
             PanelLogin.Dock = DockStyle.Fill;
             PanelLogin.Location = new Point(0, 0);
             PanelLogin.Name = "PanelLogin";
-            PanelLogin.Size = new Size(600, 619);
+            PanelLogin.Size = new Size(876, 619);
             PanelLogin.TabIndex = 9;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.CorrEzes;
+            pictureBox3.Location = new Point(388, 48);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(489, 572);
+            pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox3.TabIndex = 10;
+            pictureBox3.TabStop = false;
+            // 
+            // SenhaMostrando
+            // 
+            SenhaMostrando.Cursor = Cursors.Hand;
+            SenhaMostrando.Image = Properties.Resources.icons8_visível_50;
+            SenhaMostrando.Location = new Point(324, 318);
+            SenhaMostrando.Name = "SenhaMostrando";
+            SenhaMostrando.Size = new Size(39, 40);
+            SenhaMostrando.SizeMode = PictureBoxSizeMode.StretchImage;
+            SenhaMostrando.TabIndex = 9;
+            SenhaMostrando.TabStop = false;
+            SenhaMostrando.Click += SenhaMostrando_Click;
             // 
             // MostrarSenha
             // 
-            MostrarSenha.Image = (Image)resources.GetObject("MostrarSenha.Image");
-            MostrarSenha.Location = new Point(437, 325);
+            MostrarSenha.Cursor = Cursors.Hand;
+            MostrarSenha.Image = Properties.Resources.icons8_cego_64;
+            MostrarSenha.Location = new Point(324, 319);
             MostrarSenha.Name = "MostrarSenha";
             MostrarSenha.Size = new Size(39, 40);
             MostrarSenha.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -203,23 +228,12 @@
             MostrarSenha.TabStop = false;
             MostrarSenha.Click += MostrarSenha_Click;
             // 
-            // SenhaMostrando
-            // 
-            SenhaMostrando.Image = (Image)resources.GetObject("SenhaMostrando.Image");
-            SenhaMostrando.Location = new Point(437, 325);
-            SenhaMostrando.Name = "SenhaMostrando";
-            SenhaMostrando.Size = new Size(39, 40);
-            SenhaMostrando.SizeMode = PictureBoxSizeMode.StretchImage;
-            SenhaMostrando.TabIndex = 9;
-            SenhaMostrando.TabStop = false;
-            SenhaMostrando.Click += this.SenhaMostrando_Click;
-            // 
             // telaLogin
             // 
             AutoScaleDimensions = new SizeF(11F, 29F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
-            ClientSize = new Size(600, 619);
+            ClientSize = new Size(876, 619);
             Controls.Add(panel1);
             Controls.Add(PanelLogin);
             Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -232,8 +246,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             PanelLogin.ResumeLayout(false);
             PanelLogin.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)MostrarSenha).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)SenhaMostrando).EndInit();
+            ((System.ComponentModel.ISupportInitialize)MostrarSenha).EndInit();
             ResumeLayout(false);
         }
 
@@ -253,5 +268,6 @@
         private Panel PanelLogin;
         private PictureBox MostrarSenha;
         private PictureBox SenhaMostrando;
+        private PictureBox pictureBox3;
     }
 }

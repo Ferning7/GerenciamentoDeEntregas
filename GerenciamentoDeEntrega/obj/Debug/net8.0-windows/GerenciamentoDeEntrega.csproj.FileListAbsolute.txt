@@ -35,3 +35,4 @@ C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.csproj.AssemblyReference.cache
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.UserControls.UC_Cadastro.resources
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\Gerencia.032A139D.Up2Date
+C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.sourcelink.json

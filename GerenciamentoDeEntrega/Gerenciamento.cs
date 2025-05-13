@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace GerenciamentoDeEntrega
 {
-    internal class Gerenciamento
+    public class Gerenciamento
     {
 
+
+        /*public bool MostrarSenha()
+        {
+
+        }*/
     }
 }

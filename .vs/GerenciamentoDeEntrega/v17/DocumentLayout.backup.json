@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentrega\\gerenciamentodeentrega\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentrega\\gerenciamentodeentrega\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentrega\\gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentrega\\gerenciamentodeentrega\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentrega\\gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentrega\\gerenciamentodeentrega\\gerenciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,32 +30,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TelaLogin.cs",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\TelaLogin.cs",
               "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\TelaLogin.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\TelaLogin.cs",
               "RelativeToolTip": "GerenciamentoDeEntrega\\TelaLogin.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAADwv0oAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T13:19:03.373Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UC_Cadastro.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:33:06.105Z",
-              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
@@ -68,15 +60,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UC_Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:48:34.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_Cadastro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:33:06.105Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Gerenciamento.cs",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\Gerenciamento.cs",
               "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Gerenciamento.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\GerenciamentoDeEntrega\\GerenciamentoDeEntrega\\Gerenciamento.cs",
               "RelativeToolTip": "GerenciamentoDeEntrega\\Gerenciamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:21:29.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:21:29.195Z"
             }
           ]
         }
