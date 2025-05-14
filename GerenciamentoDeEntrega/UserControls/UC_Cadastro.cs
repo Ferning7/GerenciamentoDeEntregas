@@ -25,5 +25,68 @@ namespace GerenciamentoDeEntrega.UserControls
             this.Controls.Clear();
             this.Controls.Add(login);
         }
+
+        private void btnCadastro_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!txtEmailC.Text.Equals("") && !txtNomeUser.Text.Equals("") && !txtSenhaC.Text.Equals(""))
+                {
+                    Gerenciamento gerenciamento = new Gerenciamento();
+                    gerenciamento.Email = txtEmailC.Text;
+                    gerenciamento.Nome = txtNomeUser.Text;
+                    gerenciamento.Senha = txtSenhaC.Text;
+
+                    if (Gerenciamento.ValidarEmail(txtEmailC.Text))
+                    {
+                        if (gerenciamento.verificarEmailExistente())
+                        {
+                            if (gerenciamento.CadastrarUsuario())
+                            {
+                                MessageBox.Show("Cadastro realizado!");
+                                UC_Login login = new UC_Login();
+
+                                this.Controls.Clear();
+                                this.Controls.Add(login);
+                            }
+                            else
+                            {
+                                MessageBox.Show("Falha ao realizar cadastro");
+                                txtEmailC.Clear();
+                                txtNomeUser.Clear();
+                                txtSenhaC.Clear();
+                            }
+
+                        }
+                        else
+                        {
+
+                            txtEmailC.Clear();
+                            txtNomeUser.Clear();
+                            txtSenhaC.Clear();
+
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Email inválido");
+                        txtEmailC.Clear();
+                        txtNomeUser.Clear();
+                        txtSenhaC.Clear();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Preencha os campos corretamente!");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao cadastrar :: {ex.Message}");
+                
+            }
+
+        }
     }
 }

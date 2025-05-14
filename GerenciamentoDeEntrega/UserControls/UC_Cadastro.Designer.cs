@@ -53,7 +53,7 @@
             linkLogin.Location = new Point(712, 494);
             linkLogin.Name = "linkLogin";
             linkLogin.Size = new Size(56, 25);
-            linkLogin.TabIndex = 9;
+            linkLogin.TabIndex = 5;
             linkLogin.TabStop = true;
             linkLogin.Text = "Login";
             linkLogin.LinkClicked += linkLogin_LinkClicked;
@@ -77,9 +77,10 @@
             btnCadastro.Location = new Point(576, 437);
             btnCadastro.Name = "btnCadastro";
             btnCadastro.Size = new Size(190, 58);
-            btnCadastro.TabIndex = 8;
+            btnCadastro.TabIndex = 4;
             btnCadastro.Text = "Cadastre-se";
             btnCadastro.UseVisualStyleBackColor = false;
+            btnCadastro.Click += btnCadastro_Click;
             // 
             // lblEmailCadastro
             // 
@@ -96,14 +97,14 @@
             txtEmailC.Location = new Point(533, 248);
             txtEmailC.Name = "txtEmailC";
             txtEmailC.Size = new Size(272, 31);
-            txtEmailC.TabIndex = 12;
+            txtEmailC.TabIndex = 2;
             // 
             // txtNomeUser
             // 
             txtNomeUser.Location = new Point(533, 163);
             txtNomeUser.Name = "txtNomeUser";
             txtNomeUser.Size = new Size(272, 31);
-            txtNomeUser.TabIndex = 16;
+            txtNomeUser.TabIndex = 1;
             // 
             // lblUsuarioCadastro
             // 
@@ -120,7 +121,7 @@
             txtSenhaC.Location = new Point(533, 353);
             txtSenhaC.Name = "txtSenhaC";
             txtSenhaC.Size = new Size(272, 31);
-            txtSenhaC.TabIndex = 19;
+            txtSenhaC.TabIndex = 3;
             // 
             // label1
             // 

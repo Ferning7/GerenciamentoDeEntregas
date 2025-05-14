@@ -86,7 +86,7 @@
             linkRecSenha.Location = new Point(43, 308);
             linkRecSenha.Name = "linkRecSenha";
             linkRecSenha.Size = new Size(158, 29);
-            linkRecSenha.TabIndex = 18;
+            linkRecSenha.TabIndex = 3;
             linkRecSenha.TabStop = true;
             linkRecSenha.Text = "Esqueci a senha";
             linkRecSenha.LinkClicked += linkRecSenha_LinkClicked;
@@ -100,7 +100,7 @@
             linkCadastrar.Location = new Point(145, 476);
             linkCadastrar.Name = "linkCadastrar";
             linkCadastrar.Size = new Size(91, 26);
-            linkCadastrar.TabIndex = 12;
+            linkCadastrar.TabIndex = 5;
             linkCadastrar.TabStop = true;
             linkCadastrar.Text = "Cadastrar";
             linkCadastrar.LinkClicked += linkCadastrar_LinkClicked;
@@ -114,7 +114,7 @@
             btnLogin.Location = new Point(116, 417);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(148, 56);
-            btnLogin.TabIndex = 11;
+            btnLogin.TabIndex = 4;
             btnLogin.Text = "Entrar";
             btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
@@ -135,7 +135,7 @@
             txtEmailL.Location = new Point(43, 141);
             txtEmailL.Name = "txtEmailL";
             txtEmailL.Size = new Size(272, 35);
-            txtEmailL.TabIndex = 15;
+            txtEmailL.TabIndex = 1;
             // 
             // txtSenhaL
             // 
@@ -143,7 +143,7 @@
             txtSenhaL.Location = new Point(43, 268);
             txtSenhaL.Name = "txtSenhaL";
             txtSenhaL.Size = new Size(272, 35);
-            txtSenhaL.TabIndex = 16;
+            txtSenhaL.TabIndex = 2;
             // 
             // label2
             // 

@@ -19,34 +19,34 @@ namespace GerenciamentoDeEntrega
         private string cep;
         private string tipoUsuario;
 
-        private int Id
+        public int Id
         {
             get { return id; }
             set { id = value; }
         }
-        private string Nome
+        public string Nome
         {
             get { return nome; }
             set { nome = value; }
         }
-        private string Email
+        public string Email
         {
             get { return email; }
             set { email = value; }
         }
-        private string Senha
+        public string Senha
         {
             get { return senha; }
             set { senha = value; }
         }
 
-        private string Cep
+        public string Cep
         {
             get { return cep; }
             set { cep = value; }
         }
 
-        private string TipoUsuario
+        public string TipoUsuario
         {
             get { return tipoUsuario; }
             set { tipoUsuario = value; }
