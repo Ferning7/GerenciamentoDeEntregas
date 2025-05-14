@@ -10,7 +10,7 @@ namespace GerenciamentoDeEntrega
         public class ConexaoBD
         {
             private string conexaoBanco = "Server = localhost; Database = GerenciamentoEntregas; Uid = root; pwd = '';";
-
+    
             public MySqlConnection Conectar()
             {
                 MySqlConnection conexao = new MySqlConnection(conexaoBanco);

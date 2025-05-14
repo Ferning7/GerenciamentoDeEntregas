@@ -14,31 +14,6 @@ namespace GerenciamentoDeEntrega
         }
 
 
-
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
-        {
-            mouseDown = true;
-            lastLocation = e.Location;
-        }
-
-        private void panel1_MouseUp(object sender, MouseEventArgs e)
-        {
-            mouseDown = false;
-        }
-
-        private void panel1_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (mouseDown)
-            {
-
-                this.Location = new Point(
-                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y
-                );
-
-            }
-
-        }
-
         private void adicionarUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
@@ -47,7 +22,7 @@ namespace GerenciamentoDeEntrega
             userControl.BringToFront();
         }
 
-      
+
 
         private void telaLogin_Load(object sender, EventArgs e)
         {
@@ -64,6 +39,29 @@ namespace GerenciamentoDeEntrega
         {
             WindowState = FormWindowState.Minimized;
 
+        }
+
+        private void navBar_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y
+                );
+
+            }
+        }
+
+        private void navBar_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
+
+        private void navBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
         }
     }
 }

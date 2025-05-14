@@ -122,10 +122,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(43, 96);
             label1.Name = "label1";
-            label1.Size = new Size(96, 42);
+            label1.Size = new Size(98, 45);
             label1.TabIndex = 13;
             label1.Text = "Email";
             // 
@@ -148,10 +148,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(43, 223);
             label2.Name = "label2";
-            label2.Size = new Size(106, 42);
+            label2.Size = new Size(109, 45);
             label2.TabIndex = 14;
             label2.Text = "Senha";
             // 

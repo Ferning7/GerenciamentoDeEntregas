@@ -47,6 +47,9 @@
             navBar.Name = "navBar";
             navBar.Size = new Size(876, 50);
             navBar.TabIndex = 0;
+            navBar.MouseDown += navBar_MouseDown;
+            navBar.MouseMove += navBar_MouseMove;
+            navBar.MouseUp += navBar_MouseUp;
             // 
             // botaoMinimizar
             // 
