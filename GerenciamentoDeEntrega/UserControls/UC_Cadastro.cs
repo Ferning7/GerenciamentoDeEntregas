@@ -16,5 +16,14 @@ namespace GerenciamentoDeEntrega.UserControls
         {
             InitializeComponent();
         }
+
+        private void linkLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Conteudo c = new Conteudo();
+            UC_Login login = new UC_Login();
+
+            this.Controls.Clear();
+            this.Controls.Add(login);
+        }
     }
 }

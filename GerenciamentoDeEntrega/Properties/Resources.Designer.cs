@@ -73,6 +73,16 @@ namespace GerenciamentoDeEntrega.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CorrEzesLogin {
+            get {
+                object obj = ResourceManager.GetObject("CorrEzesLogin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_cego_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-cego-64", resourceCulture);

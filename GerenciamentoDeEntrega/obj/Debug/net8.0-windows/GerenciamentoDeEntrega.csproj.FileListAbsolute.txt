@@ -3,7 +3,6 @@ C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\bin\Debug\net8.0-windows\GerenciamentoDeEntrega.runtimeconfig.json
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\bin\Debug\net8.0-windows\GerenciamentoDeEntrega.dll
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\bin\Debug\net8.0-windows\GerenciamentoDeEntrega.pdb
-C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.telaLogin.resources
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.Properties.Resources.resources
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.csproj.GenerateResource.cache
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.GeneratedMSBuildEditorConfig.editorconfig
@@ -36,3 +35,6 @@ C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.UserControls.UC_Cadastro.resources
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\Gerencia.032A139D.Up2Date
 C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.sourcelink.json
+C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.UserControls.UC_Login.resources
+C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.Conteudo.resources
+C:\Users\Aluno_Manha\source\repos\GerenciamentoDeEntrega\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.UserControls.HomeTeste.resources
