@@ -208,7 +208,7 @@
             // 
             SenhaMostrando.Cursor = Cursors.Hand;
             SenhaMostrando.Image = Properties.Resources.icons8_visível_50;
-            SenhaMostrando.Location = new Point(324, 318);
+            SenhaMostrando.Location = new Point(324, 319);
             SenhaMostrando.Name = "SenhaMostrando";
             SenhaMostrando.Size = new Size(39, 40);
             SenhaMostrando.SizeMode = PictureBoxSizeMode.StretchImage;
