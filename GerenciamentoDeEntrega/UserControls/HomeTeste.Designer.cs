@@ -28,10 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            lblWelcome = new Label();
+            SuspendLayout();
+            // 
+            // lblWelcome
+            // 
+            lblWelcome.AutoSize = true;
+            lblWelcome.Font = new Font("Arial", 27F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblWelcome.Location = new Point(87, 152);
+            lblWelcome.Name = "lblWelcome";
+            lblWelcome.Size = new Size(0, 41);
+            lblWelcome.TabIndex = 0;
+            // 
+            // HomeTeste
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(lblWelcome);
+            Name = "HomeTeste";
+            Size = new Size(576, 376);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblWelcome;
     }
 }

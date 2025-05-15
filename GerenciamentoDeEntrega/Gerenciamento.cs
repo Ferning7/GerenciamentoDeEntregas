@@ -56,7 +56,7 @@ namespace GerenciamentoDeEntrega
         {
             try
             {
-                using(MySqlConnection conexaoBanco = new ConexaoBD().Conectar())
+                using (MySqlConnection conexaoBanco = new ConexaoBD().Conectar())
                 {
                     string senhaCripto = CriptografarSenha(Senha);
                     string sqlInsert = "INSERT INTO usuarios (nome, email, senha, cep) VALUES (@nome, @email, @senha, @cep)";
@@ -70,7 +70,7 @@ namespace GerenciamentoDeEntrega
 
                     int resultado = comando.ExecuteNonQuery();
 
-                    if(resultado > 0)
+                    if (resultado > 0)
                     {
                         return true;
                     }
@@ -182,6 +182,37 @@ namespace GerenciamentoDeEntrega
             }
         }
 
+        public string BuscarNome()
+        {
+            try
+            {
+                using (MySqlConnection conexao = new ConexaoBD().Conectar())
+                {
+                    string senhaCripto = CriptografarSenha(Senha);
 
+                    string buscarNome = "SELECT nome FROM usuarios WHERE email = @email and senha = @senha";
+                    MySqlCommand comando = new MySqlCommand(buscarNome, conexao);
+
+                    comando.Parameters.AddWithValue("@email", Email);
+                    comando.Parameters.AddWithValue("@senha", senhaCripto);
+
+                    object resultado = comando.ExecuteScalar();
+
+                    if (resultado != null)
+                    {
+                        return resultado.ToString();
+                    }
+                    else
+                    {
+                        return "";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Não foi possível buscar o nome do usuário!" + ex.Message);
+                return "";
+            }
+        }
     }
 }

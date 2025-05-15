@@ -28,12 +28,45 @@ namespace GerenciamentoDeEntrega.UserControls
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            HomeTeste home = new HomeTeste();
-            Conteudo c = new Conteudo();
-            
+            try
+            {
+                if (!txtEmailL.Text.Equals("") && !txtSenhaL.Text.Equals(""))
+                {
+                    Gerenciamento gerenciamento = new Gerenciamento();
+                    gerenciamento.Email = txtEmailL.Text;
+                    gerenciamento.Senha = txtSenhaL.Text;
 
-            this.Controls.Clear();
-            this.Controls.Add(home);
+                    if (Gerenciamento.ValidarEmail(txtEmailL.Text))
+                    {
+                        if (gerenciamento.verificarLogin())
+                        {
+                            HomeTeste home = new HomeTeste();
+                            Conteudo c = new Conteudo();
+
+
+                            this.Controls.Clear();
+                            this.Controls.Add(home);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Email ou senha inválidos");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("formato de Email inválido");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Preencha os campos corretamente!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Não foi possível fazer login: {ex.Message}");
+
+            }
 
         }
 

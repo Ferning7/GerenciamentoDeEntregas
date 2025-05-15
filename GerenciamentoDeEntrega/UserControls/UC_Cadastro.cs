@@ -84,7 +84,7 @@ namespace GerenciamentoDeEntrega.UserControls
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao cadastrar :: {ex.Message}");
-                
+
             }
 
         }
