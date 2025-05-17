@@ -42,6 +42,9 @@
             label3 = new Label();
             label4 = new Label();
             pictureBox3 = new PictureBox();
+            label5 = new Label();
+            label6 = new Label();
+            txtCep = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
@@ -89,7 +92,7 @@
             // 
             lblEmailCadastro.AutoSize = true;
             lblEmailCadastro.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEmailCadastro.Location = new Point(375, 191);
+            lblEmailCadastro.Location = new Point(375, 241);
             lblEmailCadastro.Margin = new Padding(2, 0, 2, 0);
             lblEmailCadastro.Name = "lblEmailCadastro";
             lblEmailCadastro.Size = new Size(45, 20);
@@ -98,7 +101,7 @@
             // 
             // txtEmailC
             // 
-            txtEmailC.Location = new Point(375, 213);
+            txtEmailC.Location = new Point(375, 263);
             txtEmailC.Margin = new Padding(2);
             txtEmailC.Name = "txtEmailC";
             txtEmailC.Size = new Size(192, 23);
@@ -125,7 +128,7 @@
             // 
             // txtSenhaC
             // 
-            txtSenhaC.Location = new Point(375, 276);
+            txtSenhaC.Location = new Point(375, 320);
             txtSenhaC.Margin = new Padding(2);
             txtSenhaC.Name = "txtSenhaC";
             txtSenhaC.Size = new Size(192, 23);
@@ -135,7 +138,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(372, 254);
+            label1.Location = new Point(372, 298);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(48, 20);
@@ -159,7 +162,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Red;
-            label2.Location = new Point(417, 257);
+            label2.Location = new Point(417, 301);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(14, 20);
@@ -171,7 +174,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(416, 193);
+            label3.Location = new Point(416, 243);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(14, 20);
@@ -201,10 +204,44 @@
             pictureBox3.TabIndex = 26;
             pictureBox3.TabStop = false;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Red;
+            label5.Location = new Point(416, 192);
+            label5.Margin = new Padding(2, 0, 2, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(14, 20);
+            label5.TabIndex = 29;
+            label5.Text = "*";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(375, 190);
+            label6.Margin = new Padding(2, 0, 2, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(33, 20);
+            label6.TabIndex = 28;
+            label6.Text = "Cep";
+            // 
+            // txtCep
+            // 
+            txtCep.Location = new Point(375, 212);
+            txtCep.Margin = new Padding(2);
+            txtCep.Name = "txtCep";
+            txtCep.Size = new Size(192, 23);
+            txtCep.TabIndex = 27;
+            // 
             // UC_Cadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label5);
+            Controls.Add(label6);
+            Controls.Add(txtCep);
             Controls.Add(pictureBox3);
             Controls.Add(linkLogin);
             Controls.Add(label4);
@@ -222,6 +259,7 @@
             Margin = new Padding(2);
             Name = "UC_Cadastro";
             Size = new Size(610, 469);
+            Load += UC_Cadastro_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -244,5 +282,8 @@
         private Label label3;
         private Label label4;
         private PictureBox pictureBox3;
+        private Label label5;
+        private Label label6;
+        private TextBox txtCep;
     }
 }

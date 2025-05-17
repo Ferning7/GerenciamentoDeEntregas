@@ -135,6 +135,7 @@
             label1.Size = new Size(66, 30);
             label1.TabIndex = 13;
             label1.Text = "Email";
+            label1.Click += label1_Click;
             // 
             // txtEmailL
             // 

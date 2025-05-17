@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -17,7 +18,7 @@ namespace GerenciamentoDeEntrega
         private string email;
         private string senha;
         private string cep;
-        private string tipoUsuario;
+        private string permissao;
 
         public int Id
         {
@@ -46,10 +47,10 @@ namespace GerenciamentoDeEntrega
             set { cep = value; }
         }
 
-        public string TipoUsuario
+        public string Permissao
         {
-            get { return tipoUsuario; }
-            set { tipoUsuario = value; }
+            get { return permissao; }
+            set { permissao = value; }
         }
 
         public bool CadastrarUsuario()
@@ -59,7 +60,7 @@ namespace GerenciamentoDeEntrega
                 using (MySqlConnection conexaoBanco = new ConexaoBD().Conectar())
                 {
                     string senhaCripto = CriptografarSenha(Senha);
-                    string sqlInsert = "INSERT INTO usuarios (nome, email, senha, cep) VALUES (@nome, @email, @senha, @cep)";
+                    string sqlInsert = "INSERT INTO usuarios (nome, email, senha, cep, permissao) VALUES (@nome, @email, @senha, @cep, @permissao)";
 
                     MySqlCommand comando = new MySqlCommand(sqlInsert, conexaoBanco);
 
@@ -67,11 +68,25 @@ namespace GerenciamentoDeEntrega
                     comando.Parameters.AddWithValue("@email", Email);
                     comando.Parameters.AddWithValue("@senha", senhaCripto);
                     comando.Parameters.AddWithValue("@cep", cep);
+                    comando.Parameters.AddWithValue("@permissao", "usuario");
 
                     int resultado = comando.ExecuteNonQuery();
 
                     if (resultado > 0)
                     {
+                        MailMessage mail = new MailMessage();
+
+                        //define os endereços
+                        mail.From = new MailAddress("robertmenezesp9@gmail.com");
+                        mail.To.Add(Email);
+
+                        //define o conteúdo
+                        mail.Subject = "Cadastrou ein";
+                        mail.Body = "Cadastrou na MM rastreios";
+
+                        //envia a mensagem
+                        SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+                        smtp.Send(mail);
                         return true;
                     }
                     else

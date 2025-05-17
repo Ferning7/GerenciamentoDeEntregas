@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace GerenciamentoDeEntrega.UserControls
 {
@@ -32,15 +34,18 @@ namespace GerenciamentoDeEntrega.UserControls
             {
                 if (!txtEmailL.Text.Equals("") && !txtSenhaL.Text.Equals(""))
                 {
-                    Gerenciamento gerenciamento = new Gerenciamento();
-                    gerenciamento.Email = txtEmailL.Text;
-                    gerenciamento.Senha = txtSenhaL.Text;
+                    Gerenciamento usuario = new Gerenciamento();
+                    usuario.Email = txtEmailL.Text;
+                    usuario.Senha = txtSenhaL.Text;
 
                     if (Gerenciamento.ValidarEmail(txtEmailL.Text))
                     {
-                        if (gerenciamento.verificarLogin())
+                        if (usuario.verificarLogin())
                         {
-                            HomeTeste home = new HomeTeste();
+
+                            string nome = usuario.BuscarNome();
+
+                            UC_homeCliente home = new UC_homeCliente(nome);
                             Conteudo c = new Conteudo();
 
 
@@ -71,6 +76,9 @@ namespace GerenciamentoDeEntrega.UserControls
         }
 
 
+
+
+
         private void OcultarSenha_Click(object sender, EventArgs e)
         {
             txtSenhaL.UseSystemPasswordChar = true;
@@ -96,6 +104,11 @@ namespace GerenciamentoDeEntrega.UserControls
         }
 
         private void linkRecSenha_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
