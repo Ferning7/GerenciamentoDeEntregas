@@ -4,7 +4,7 @@
     <Compile Update="Conteudo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UserControls\HomeTeste.cs">
+    <Compile Update="UserControls\UC_homeCliente.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_Cadastro.cs">

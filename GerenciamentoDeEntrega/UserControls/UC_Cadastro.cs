@@ -36,6 +36,9 @@ namespace GerenciamentoDeEntrega.UserControls
                     gerenciamento.Email = txtEmailC.Text;
                     gerenciamento.Nome = txtNomeUser.Text;
                     gerenciamento.Senha = txtSenhaC.Text;
+                    gerenciamento.Cep = txtCep.Text;
+                    
+
 
                     if (Gerenciamento.ValidarEmail(txtEmailC.Text))
                     {
@@ -86,6 +89,11 @@ namespace GerenciamentoDeEntrega.UserControls
                 MessageBox.Show($"Erro ao cadastrar :: {ex.Message}");
 
             }
+
+        }
+
+        private void UC_Cadastro_Load(object sender, EventArgs e)
+        {
 
         }
     }
