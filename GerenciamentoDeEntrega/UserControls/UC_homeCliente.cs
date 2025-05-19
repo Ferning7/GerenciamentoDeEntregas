@@ -24,7 +24,7 @@ namespace GerenciamentoDeEntrega.UserControls
         private void UC_homeCliente_Load(object sender, EventArgs e)
         {
 
-          
+         
 
         }
 

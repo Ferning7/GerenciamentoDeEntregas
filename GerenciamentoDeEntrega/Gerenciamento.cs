@@ -67,26 +67,14 @@ namespace GerenciamentoDeEntrega
                     comando.Parameters.AddWithValue("@nome", Nome);
                     comando.Parameters.AddWithValue("@email", Email);
                     comando.Parameters.AddWithValue("@senha", senhaCripto);
-                    comando.Parameters.AddWithValue("@cep", cep);
+                    comando.Parameters.AddWithValue("@cep", Cep);
                     comando.Parameters.AddWithValue("@permissao", "usuario");
 
                     int resultado = comando.ExecuteNonQuery();
 
                     if (resultado > 0)
                     {
-                        MailMessage mail = new MailMessage();
-
-                        //define os endereços
-                        mail.From = new MailAddress("robertmenezesp9@gmail.com");
-                        mail.To.Add(Email);
-
-                        //define o conteúdo
-                        mail.Subject = "Cadastrou ein";
-                        mail.Body = "Cadastrou na MM rastreios";
-
-                        //envia a mensagem
-                        SmtpClient smtp = new SmtpClient("smtp.gmail.com");
-                        smtp.Send(mail);
+                        
                         return true;
                     }
                     else
@@ -229,5 +217,41 @@ namespace GerenciamentoDeEntrega
                 return "";
             }
         }
+
+        public bool BuscarCadastro()
+        {
+            using (MySqlConnection conexao = new ConexaoBD().Conectar())
+            {
+                try
+                {
+                    string sqlConsulta = "SELECT COUNT(*) FROM usuarios WHERE nome = @nome OR email = @email";
+
+                    MySqlCommand consulta = new MySqlCommand(sqlConsulta, conexao);
+                    consulta.Parameters.AddWithValue("@nome", Nome);
+                    consulta.Parameters.AddWithValue("@email", Email);
+
+                    long quantidade = (long)consulta.ExecuteScalar();
+
+                    if (quantidade > 0)
+                    {
+                        MessageBox.Show("Esse usuário já existe!");
+                        return false;
+                    }
+                    else
+                    {
+                        return true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro na verificação de cadastro: {ex.Message}");
+                    return false;
+                }
+            }
+        }
+
+        public 
+
+
     }
 }

@@ -30,52 +30,48 @@ namespace GerenciamentoDeEntrega.UserControls
         {
             try
             {
-                if (!txtEmailC.Text.Equals("") && !txtNomeUser.Text.Equals("") && !txtSenhaC.Text.Equals(""))
+                if (!txtEmailC.Text.Equals("") && !txtNomeUser.Text.Equals("") && !txtSenhaC.Text.Equals("") && !txtCep.Text.Equals(""))
                 {
+
+                    
+
                     Gerenciamento gerenciamento = new Gerenciamento();
                     gerenciamento.Email = txtEmailC.Text;
                     gerenciamento.Nome = txtNomeUser.Text;
                     gerenciamento.Senha = txtSenhaC.Text;
                     gerenciamento.Cep = txtCep.Text;
-                    
 
-
-                    if (Gerenciamento.ValidarEmail(txtEmailC.Text))
+                    if (gerenciamento.BuscarCadastro())
                     {
-                        if (gerenciamento.verificarEmailExistente())
+
+                        if (Gerenciamento.ValidarEmail(txtEmailC.Text))
                         {
-                            if (gerenciamento.CadastrarUsuario())
+                            if (ServerCep.ValidarCep(gerenciamento.Cep))
                             {
-                                MessageBox.Show("Cadastro realizado!");
-                                UC_Login login = new UC_Login();
+                                
+                                if (gerenciamento.CadastrarUsuario())
+                                {
+                                    MessageBox.Show("Cadastro realizado!");
+                                    Conteudo c = new Conteudo();
+                                    UC_Login login = new UC_Login();
 
-                                this.Controls.Clear();
-                                this.Controls.Add(login);
-                            }
-                            else
-                            {
-                                MessageBox.Show("Falha ao realizar cadastro");
-                                txtEmailC.Clear();
-                                txtNomeUser.Clear();
-                                txtSenhaC.Clear();
-                            }
+                                    this.Controls.Clear();
+                                    this.Controls.Add(login);
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Falha ao realizar cadastro");
+                                        
+                                }
 
+                            }
+                           
                         }
                         else
                         {
-
-                            txtEmailC.Clear();
-                            txtNomeUser.Clear();
-                            txtSenhaC.Clear();
-
+                            MessageBox.Show("Email inválido");
+                           
                         }
-                    }
-                    else
-                    {
-                        MessageBox.Show("Email inválido");
-                        txtEmailC.Clear();
-                        txtNomeUser.Clear();
-                        txtSenhaC.Clear();
                     }
                 }
                 else
@@ -94,6 +90,24 @@ namespace GerenciamentoDeEntrega.UserControls
 
         private void UC_Cadastro_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void txtCep_TextChanged(object sender, EventArgs e)
+        {
+
+            if(txtCep.Text.Length > 8)
+            {
+
+                MessageBox.Show("CEP inválido!");
+                btnCadastro.Enabled = false;
+            
+            }
+            else
+            {
+                btnCadastro.Enabled = true;
+            }
+
 
         }
     }

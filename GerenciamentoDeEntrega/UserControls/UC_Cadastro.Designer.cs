@@ -44,7 +44,7 @@
             pictureBox3 = new PictureBox();
             label5 = new Label();
             label6 = new Label();
-            txtCep = new TextBox();
+            txtCep = new MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
@@ -109,7 +109,7 @@
             // 
             // txtNomeUser
             // 
-            txtNomeUser.Location = new Point(375, 162);
+            txtNomeUser.Location = new Point(375, 163);
             txtNomeUser.Margin = new Padding(2);
             txtNomeUser.Name = "txtNomeUser";
             txtNomeUser.Size = new Size(192, 23);
@@ -229,19 +229,19 @@
             // 
             // txtCep
             // 
-            txtCep.Location = new Point(375, 212);
-            txtCep.Margin = new Padding(2);
+            txtCep.Location = new Point(375, 213);
             txtCep.Name = "txtCep";
             txtCep.Size = new Size(192, 23);
-            txtCep.TabIndex = 27;
+            txtCep.TabIndex = 30;
+            txtCep.TextChanged += txtCep_TextChanged;
             // 
             // UC_Cadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(txtCep);
             Controls.Add(label5);
             Controls.Add(label6);
-            Controls.Add(txtCep);
             Controls.Add(pictureBox3);
             Controls.Add(linkLogin);
             Controls.Add(label4);
@@ -284,6 +284,6 @@
         private PictureBox pictureBox3;
         private Label label5;
         private Label label6;
-        private TextBox txtCep;
+        private MaskedTextBox txtCep;
     }
 }
