@@ -53,10 +53,9 @@
             linkLogin.AutoSize = true;
             linkLogin.Cursor = Cursors.Hand;
             linkLogin.LinkColor = Color.DarkRed;
-            linkLogin.Location = new Point(511, 416);
-            linkLogin.Margin = new Padding(2, 0, 2, 0);
+            linkLogin.Location = new Point(704, 520);
             linkLogin.Name = "linkLogin";
-            linkLogin.Size = new Size(37, 15);
+            linkLogin.Size = new Size(56, 25);
             linkLogin.TabIndex = 5;
             linkLogin.TabStop = true;
             linkLogin.Text = "Login";
@@ -66,10 +65,9 @@
             // 
             lblCadastro.AutoSize = true;
             lblCadastro.Font = new Font("Arial", 19F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCadastro.Location = new Point(362, 68);
-            lblCadastro.Margin = new Padding(2, 0, 2, 0);
+            lblCadastro.Location = new Point(504, 12);
             lblCadastro.Name = "lblCadastro";
-            lblCadastro.Size = new Size(229, 30);
+            lblCadastro.Size = new Size(339, 45);
             lblCadastro.TabIndex = 14;
             lblCadastro.Text = "Crie seu cadastro";
             // 
@@ -79,10 +77,9 @@
             btnCadastro.Cursor = Cursors.Hand;
             btnCadastro.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCadastro.ForeColor = Color.White;
-            btnCadastro.Location = new Point(416, 382);
-            btnCadastro.Margin = new Padding(2);
+            btnCadastro.Location = new Point(568, 464);
             btnCadastro.Name = "btnCadastro";
-            btnCadastro.Size = new Size(133, 35);
+            btnCadastro.Size = new Size(190, 58);
             btnCadastro.TabIndex = 4;
             btnCadastro.Text = "Cadastre-se";
             btnCadastro.UseVisualStyleBackColor = false;
@@ -92,56 +89,50 @@
             // 
             lblEmailCadastro.AutoSize = true;
             lblEmailCadastro.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEmailCadastro.Location = new Point(375, 241);
-            lblEmailCadastro.Margin = new Padding(2, 0, 2, 0);
+            lblEmailCadastro.Location = new Point(532, 250);
             lblEmailCadastro.Name = "lblEmailCadastro";
-            lblEmailCadastro.Size = new Size(45, 20);
+            lblEmailCadastro.Size = new Size(65, 29);
             lblEmailCadastro.TabIndex = 10;
             lblEmailCadastro.Text = "Email";
             // 
             // txtEmailC
             // 
-            txtEmailC.Location = new Point(375, 263);
-            txtEmailC.Margin = new Padding(2);
+            txtEmailC.Location = new Point(532, 286);
             txtEmailC.Name = "txtEmailC";
-            txtEmailC.Size = new Size(192, 23);
+            txtEmailC.Size = new Size(273, 31);
             txtEmailC.TabIndex = 2;
             // 
             // txtNomeUser
             // 
-            txtNomeUser.Location = new Point(375, 163);
-            txtNomeUser.Margin = new Padding(2);
+            txtNomeUser.Location = new Point(532, 120);
             txtNomeUser.Name = "txtNomeUser";
-            txtNomeUser.Size = new Size(192, 23);
+            txtNomeUser.Size = new Size(273, 31);
             txtNomeUser.TabIndex = 1;
             // 
             // lblUsuarioCadastro
             // 
             lblUsuarioCadastro.AutoSize = true;
             lblUsuarioCadastro.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblUsuarioCadastro.Location = new Point(375, 143);
-            lblUsuarioCadastro.Margin = new Padding(2, 0, 2, 0);
+            lblUsuarioCadastro.Location = new Point(532, 86);
             lblUsuarioCadastro.Name = "lblUsuarioCadastro";
-            lblUsuarioCadastro.Size = new Size(115, 20);
+            lblUsuarioCadastro.Size = new Size(172, 29);
             lblUsuarioCadastro.TabIndex = 17;
             lblUsuarioCadastro.Text = "Nome de usuário";
             // 
             // txtSenhaC
             // 
-            txtSenhaC.Location = new Point(375, 320);
-            txtSenhaC.Margin = new Padding(2);
+            txtSenhaC.Location = new Point(532, 381);
             txtSenhaC.Name = "txtSenhaC";
-            txtSenhaC.Size = new Size(192, 23);
+            txtSenhaC.Size = new Size(273, 31);
             txtSenhaC.TabIndex = 3;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(372, 298);
-            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Location = new Point(527, 345);
             label1.Name = "label1";
-            label1.Size = new Size(48, 20);
+            label1.Size = new Size(72, 29);
             label1.TabIndex = 18;
             label1.Text = "Senha";
             // 
@@ -150,10 +141,9 @@
             lblNomeObr.AutoSize = true;
             lblNomeObr.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNomeObr.ForeColor = Color.Red;
-            lblNomeObr.Location = new Point(492, 146);
-            lblNomeObr.Margin = new Padding(2, 0, 2, 0);
+            lblNomeObr.Location = new Point(699, 91);
             lblNomeObr.Name = "lblNomeObr";
-            lblNomeObr.Size = new Size(14, 20);
+            lblNomeObr.Size = new Size(21, 29);
             lblNomeObr.TabIndex = 22;
             lblNomeObr.Text = "*";
             // 
@@ -162,10 +152,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Red;
-            label2.Location = new Point(417, 301);
-            label2.Margin = new Padding(2, 0, 2, 0);
+            label2.Location = new Point(592, 350);
             label2.Name = "label2";
-            label2.Size = new Size(14, 20);
+            label2.Size = new Size(21, 29);
             label2.TabIndex = 23;
             label2.Text = "*";
             // 
@@ -174,10 +163,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(416, 243);
-            label3.Margin = new Padding(2, 0, 2, 0);
+            label3.Location = new Point(590, 253);
             label3.Name = "label3";
-            label3.Size = new Size(14, 20);
+            label3.Size = new Size(21, 29);
             label3.TabIndex = 24;
             label3.Text = "*";
             // 
@@ -186,18 +174,16 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(416, 416);
-            label4.Margin = new Padding(2, 0, 2, 0);
+            label4.Location = new Point(568, 520);
             label4.Name = "label4";
-            label4.Size = new Size(94, 15);
+            label4.Size = new Size(143, 25);
             label4.TabIndex = 25;
             label4.Text = "Possui cadastro?";
             // 
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.CorrEzes;
-            pictureBox3.Location = new Point(-155, 0);
-            pictureBox3.Margin = new Padding(2);
+            pictureBox3.Location = new Point(-19, 0);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(489, 572);
             pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -209,10 +195,9 @@
             label5.AutoSize = true;
             label5.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Red;
-            label5.Location = new Point(416, 192);
-            label5.Margin = new Padding(2, 0, 2, 0);
+            label5.Location = new Point(590, 168);
             label5.Name = "label5";
-            label5.Size = new Size(14, 20);
+            label5.Size = new Size(21, 29);
             label5.TabIndex = 29;
             label5.Text = "*";
             // 
@@ -220,24 +205,24 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(375, 190);
-            label6.Margin = new Padding(2, 0, 2, 0);
+            label6.Location = new Point(532, 165);
             label6.Name = "label6";
-            label6.Size = new Size(33, 20);
+            label6.Size = new Size(50, 29);
             label6.TabIndex = 28;
             label6.Text = "Cep";
             // 
             // txtCep
             // 
-            txtCep.Location = new Point(375, 213);
+            txtCep.Location = new Point(532, 203);
+            txtCep.Margin = new Padding(4, 5, 4, 5);
             txtCep.Name = "txtCep";
-            txtCep.Size = new Size(192, 23);
+            txtCep.Size = new Size(273, 31);
             txtCep.TabIndex = 30;
             txtCep.TextChanged += txtCep_TextChanged;
             // 
             // UC_Cadastro
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(txtCep);
             Controls.Add(label5);
@@ -256,9 +241,8 @@
             Controls.Add(btnCadastro);
             Controls.Add(lblEmailCadastro);
             Controls.Add(txtEmailC);
-            Margin = new Padding(2);
             Name = "UC_Cadastro";
-            Size = new Size(610, 469);
+            Size = new Size(871, 576);
             Load += UC_Cadastro_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);

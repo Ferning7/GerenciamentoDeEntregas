@@ -62,8 +62,53 @@ namespace GerenciamentoDeEntrega.UserControls
             }
         }
 
-    
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
 
+
+
+        }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void dgvRotas_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+
+            // Verifica se a célula editada é a coluna de status
+            if (dgvRotas.Columns[e.ColumnIndex].Name == "Status")
+            {
+                // Obtém o novo valor da célula
+                string novoStatus = dgvRotas.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
+                // Atualiza o status na base de dados
+                Rota rota = (Rota)dgvRotas.Rows[e.RowIndex].DataBoundItem;
+                rota.Status = novoStatus;
+                // Aqui você pode adicionar o código para atualizar o status no banco de dados
+
+                try
+                {
+                    using (MySqlConnection conexao = new ConexaoBD().Conectar())
+                    {
+                        string sql = "UPDATE rota SET status_rota = @status WHERE id = @id";
+                        MySqlCommand cmd = new MySqlCommand(sql, conexao);
+                        cmd.Parameters.AddWithValue("@status", novoStatus);
+                        cmd.Parameters.AddWithValue("@id", dgvRotas.CurrentRow.Cells[6].Value.ToString());
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao atualizar status: " + ex.Message);
+                }
+            } 
+
+        }
+
+        
 
     }
 }

@@ -44,7 +44,7 @@ namespace GerenciamentoDeEntrega.UserControls
                     {
                         if (usuario.verificarLogin())
                         {
-                            MessageBox.Show(usuario.VerificarPerm());
+                          
                             if (usuario.VerificarPerm().Equals("usuario"))
                             {
                                 

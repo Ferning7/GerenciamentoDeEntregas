@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Conteudo));
             navBar = new Panel();
             botaoMinimizar = new PictureBox();
             botaoFechar = new PictureBox();
@@ -55,18 +56,19 @@
             // 
             botaoMinimizar.Cursor = Cursors.Hand;
             botaoMinimizar.Image = Properties.Resources.icons8_linha_horizontal_50__1_;
-            botaoMinimizar.Location = new Point(779, 3);
+            botaoMinimizar.Location = new Point(772, 3);
             botaoMinimizar.Name = "botaoMinimizar";
             botaoMinimizar.Size = new Size(43, 44);
             botaoMinimizar.SizeMode = PictureBoxSizeMode.StretchImage;
             botaoMinimizar.TabIndex = 1;
             botaoMinimizar.TabStop = false;
+            botaoMinimizar.Click += botaoMinimizar_Click_1;
             // 
             // botaoFechar
             // 
             botaoFechar.Cursor = Cursors.Hand;
             botaoFechar.Image = Properties.Resources.icons8_excluir_50__1_;
-            botaoFechar.Location = new Point(828, 3);
+            botaoFechar.Location = new Point(821, 3);
             botaoFechar.Name = "botaoFechar";
             botaoFechar.Size = new Size(43, 44);
             botaoFechar.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -76,7 +78,6 @@
             // 
             // panelCentral
             // 
-            panelCentral.Dock = DockStyle.Fill;
             panelCentral.Location = new Point(0, 50);
             panelCentral.Name = "panelCentral";
             panelCentral.Size = new Size(876, 569);
@@ -89,6 +90,7 @@
             Controls.Add(navBar);
             Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Conteudo";
             StartPosition = FormStartPosition.CenterScreen;
             Load += telaLogin_Load;

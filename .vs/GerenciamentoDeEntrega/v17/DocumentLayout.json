@@ -1,53 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\",
+  "WorkspaceRootPath": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\rota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\rota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_homefunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_homefunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_homefunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_homefunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\gerenciamentodeentrega\\usercontrols\\uc_homefunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_homefunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\gerenciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\gerenciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\gerenciamentodeentrega\\usercontrols\\uc_homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\gerenciamentodeentrega\\usercontrols\\uc_homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\servercep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\servercep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\robert\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\gerenciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\gerenciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\rota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\rota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\servercep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\servercep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\usercontrols\\uc_cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|c:\\users\\aluno_manha\\source\\repos\\gerenciamentodeentregas\\gerenciamentodeentrega\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12BFC0CD-E4FE-4F95-9116-BDD7966B455D}|GerenciamentoDeEntrega\\GerenciamentoDeEntrega.csproj|solutionrelative:gerenciamentodeentrega\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,8 +66,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -70,50 +82,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Rota.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Rota.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Rota.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Rota.cs",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\Rota.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAqwFQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T01:34:33.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UC_homeCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwCUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:47:45.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Gerenciamento.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Gerenciamento.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Gerenciamento.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Gerenciamento.cs",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\Gerenciamento.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAmwAoBAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T01:45:40.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UC_HomeFunc.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
               "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs [Projeto]",
               "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T02:57:58.853Z",
@@ -123,22 +96,34 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UC_HomeFunc.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
               "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
               "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_HomeFunc.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwD0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAIAwwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T03:04:57.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Conteudo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Conteudo.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Conteudo.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Conteudo.cs [Projeto]",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\Conteudo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:45:52.729Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UC_homeCliente.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
               "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs [Projeto]",
               "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T16:57:23.455Z",
@@ -146,24 +131,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_Login.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAQwC4AAABFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UC_Cadastro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:34:07.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T12:10:49.005Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "UC_Login.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
               "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs [Projeto]",
               "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Login.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T12:15:02.135Z",
@@ -171,48 +155,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ServerCep.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\ServerCep.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\ServerCep.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\ServerCep.cs",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\ServerCep.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Conteudo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Conteudo.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Conteudo.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Conteudo.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\Conteudo.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAD4v0QAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:56:28.339Z",
+              "WhenOpened": "2025-05-19T10:53:19.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UC_Login.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Login.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:34:07.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Gerenciamento.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Gerenciamento.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Gerenciamento.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Gerenciamento.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\Gerenciamento.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAmwAoBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T01:45:40.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rota.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Rota.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Rota.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Rota.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\Rota.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwFQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T01:34:33.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "UC_Cadastro.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs [Projeto]",
+              "Title": "UC_homeCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_homeCliente.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwCUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:10:49.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UC_Cadastro.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:48:34.401Z",
+              "WhenOpened": "2025-05-15T13:47:45.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "ServerCep.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\ServerCep.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\ServerCep.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\ServerCep.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\ServerCep.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:56:28.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UC_Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "RelativeToolTip": "GerenciamentoDeEntrega\\UserControls\\UC_Cadastro.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:48:34.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Endereco.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Endereco.cs",
               "RelativeDocumentMoniker": "GerenciamentoDeEntrega\\Endereco.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Endereco.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\GerenciamentoDeEntregas\\GerenciamentoDeEntrega\\Endereco.cs",
               "RelativeToolTip": "GerenciamentoDeEntrega\\Endereco.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

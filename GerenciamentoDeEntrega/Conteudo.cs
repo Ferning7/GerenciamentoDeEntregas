@@ -63,6 +63,11 @@ namespace GerenciamentoDeEntrega
             mouseDown = true;
             lastLocation = e.Location;
         }
+
+        private void botaoMinimizar_Click_1(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }
 
