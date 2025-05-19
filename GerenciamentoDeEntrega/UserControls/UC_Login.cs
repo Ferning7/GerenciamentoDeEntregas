@@ -38,19 +38,33 @@ namespace GerenciamentoDeEntrega.UserControls
                     usuario.Email = txtEmailL.Text;
                     usuario.Senha = txtSenhaL.Text;
 
+                    
+
                     if (Gerenciamento.ValidarEmail(txtEmailL.Text))
                     {
                         if (usuario.verificarLogin())
                         {
+                            MessageBox.Show(usuario.VerificarPerm());
+                            if (usuario.VerificarPerm().Equals("usuario"))
+                            {
+                                
+                                UC_homeCliente home = new UC_homeCliente();
+                                Conteudo c = new Conteudo();
 
-                            string nome = usuario.BuscarNome();
 
-                            UC_homeCliente home = new UC_homeCliente(nome);
-                            Conteudo c = new Conteudo();
+                                this.Controls.Clear();
+                                this.Controls.Add(home);
+                            }else{
+
+                                
+                                UC_HomeFunc homeF = new UC_HomeFunc();
+                                
 
 
-                            this.Controls.Clear();
-                            this.Controls.Add(home);
+                                this.Controls.Clear();
+                                this.Controls.Add(homeF);
+
+                            }
                         }
                         else
                         {
