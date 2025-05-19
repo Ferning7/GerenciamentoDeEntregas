@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Net.Mail;
 using System.Security.Cryptography;
@@ -74,7 +75,7 @@ namespace GerenciamentoDeEntrega
 
                     if (resultado > 0)
                     {
-                        
+
                         return true;
                     }
                     else
@@ -250,8 +251,37 @@ namespace GerenciamentoDeEntrega
             }
         }
 
-        public 
 
+        public string VerificarPerm()
+        {
+            using (MySqlConnection conexao = new ConexaoBD().Conectar())
+            {
+                try
+                {
+                    string sqlConsulta = "SELECT permissao FROM usuarios WHERE nome = @nome OR email = @email";
+
+                    MySqlCommand consulta = new MySqlCommand(sqlConsulta, conexao);
+                    consulta.Parameters.AddWithValue("@nome", Nome);
+                    consulta.Parameters.AddWithValue("@email", Email);
+
+                    string result = consulta.ExecuteScalar().ToString();
+
+                    if(!result.Equals(""))
+                    {
+                        return result;
+                    }
+                    else
+                    {
+                        return null;
+                    }
+                    
+                }
+                catch (Exception ex)
+                {
+                    return null;
+                }
+            }
+        }
 
     }
 }

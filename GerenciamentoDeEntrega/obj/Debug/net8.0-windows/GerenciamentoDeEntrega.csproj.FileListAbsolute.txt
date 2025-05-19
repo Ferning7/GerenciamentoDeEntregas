@@ -158,3 +158,4 @@ C:\Users\Robert\Source\Repos\GerenciamentoDeEntregas\GerenciamentoDeEntrega\obj\
 C:\Users\Robert\Source\Repos\GerenciamentoDeEntregas\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.genruntimeconfig.cache
 C:\Users\Robert\Source\Repos\GerenciamentoDeEntregas\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\ref\GerenciamentoDeEntrega.dll
 C:\Users\Robert\Source\Repos\GerenciamentoDeEntregas\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.UserControls.UC_homeCliente.resources
+C:\Users\Robert\Source\Repos\GerenciamentoDeEntregas\GerenciamentoDeEntrega\obj\Debug\net8.0-windows\GerenciamentoDeEntrega.UserControls.UC_HomeFunc.resources

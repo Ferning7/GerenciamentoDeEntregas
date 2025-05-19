@@ -13,11 +13,11 @@ namespace GerenciamentoDeEntrega.UserControls
 {
     public partial class UC_homeCliente : UserControl
     {
-        private Gerenciamento usuario = new Gerenciamento();
-        public UC_homeCliente(string nome)
+      
+        public UC_homeCliente()
         {
             InitializeComponent();
-            usuario.Nome = nome;
+            
 
         }
 
@@ -30,9 +30,39 @@ namespace GerenciamentoDeEntrega.UserControls
 
         private void btnBuscarRota_Click(object sender, EventArgs e)
         {
+           
 
+            // Instância do objeto que tem o método BuscarRota
+            var rota = new Rota();
 
+            List<Rota> rotas = rota.BuscarRota(txtCep.Text);
 
+            foreach (var ocorrencia in rotas)
+            {
+                
+                
+                
+                lblData.AutoSize = true;
+                lblData.Text = $"Data: {ocorrencia.DataEmissao.ToShortDateString()} ";
+               
+                lblStatus.AutoSize = true;
+                lblStatus.Text = $"Status: {ocorrencia.Status} ";
+                
+               
+                lblOcorrencia.AutoSize = true;
+                lblOcorrencia.Text = $"Ocorrência: {ocorrencia.Ocorrencia} ";
+
+              
+                lblDataOcorrencia.AutoSize = true;
+                lblDataOcorrencia.Text = $"Data Ocorrência: {ocorrencia.DataOcorrencia.ToShortDateString()}";
+
+                
+            }
+
+            if (rotas.Count == 0)
+            {
+                MessageBox.Show("Nenhuma rota encontrada para o CEP informado.");
+            }
         }
     }
 }
